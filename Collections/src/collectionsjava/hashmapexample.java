@@ -1,0 +1,20 @@
+package collectionsjava;
+
+import java.util.*;
+
+public class hashmapexample {
+	
+	public static void main(String[] args)
+	{
+		HashMap<Integer, String> hm = new HashMap<Integer,String>();
+		hm.put(1, "Pooja");
+		hm.put(6, "Harshit");
+		hm.put(2, "dev");
+		hm.put(4, "Elesa");
+		
+		for(Map.Entry m:hm.entrySet())
+			System.out.println(m.getKey()+" "+m.getValue());
+		
+	}
+
+}
